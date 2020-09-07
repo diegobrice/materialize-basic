@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="navbar-fixed">
+      <nav class="">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"
+              ><i class="material-icons">menu</i></a
+            >
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger right"
+              ><i class="material-icons">menu</i></a
+            >
+
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="sass.html">Sass</a></li>
+      <li><a href="badges.html">Components</a></li>
+      <li><a href="collapsible.html">JavaScript</a></li>
+    </ul>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img
+              src="https://vignette.wikia.nocookie.net/reinoanimalia/images/5/5c/Desiertos.png/revision/latest?cb=20150820071052&path-prefix=es"
+            />
+          </div>
+          <a href="#user"
+            ><img
+              class="circle"
+              src="https://vignette.wikia.nocookie.net/reinoanimalia/images/5/5c/Desiertos.png/revision/latest?cb=20150820071052&path-prefix=es"
+          /></a>
+          <a href="#name"><span class="white-text name">John Doe</span></a>
+          <a href="#email"
+            ><span class="white-text email">jdandturk@gmail.com</span></a
+          >
+        </div>
+      </li>
+      <li>
+        <a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a>
+      </li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
+
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large red">
+        <i class="large material-icons">mode_edit</i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating red"
+            ><i class="material-icons">insert_chart</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating yellow darken-1"
+            ><i class="material-icons">format_quote</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating green"
+            ><i class="material-icons">publish</i></a
+          >
+        </li>
+        <li>
+          <a class="btn-floating blue"
+            ><i class="material-icons">attach_file</i></a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img
+          src="https://vignette.wikia.nocookie.net/reinoanimalia/images/5/5c/Desiertos.png/revision/latest?cb=20150820071052&path-prefix=es"
+        />
+      </div>
+    </div>
+    <div class="carousel carousel-slider center">
+      <div class="carousel-fixed-item center">
+        <a class="btn waves-effect white grey-text darken-text-2">button</a>
+        <a class="btn waves-effect blue white-text darken-text-2">button</a>
+      </div>
+      <div class="carousel-item red white-text" href="#one!">
+        <h2>First Panel</h2>
+        <p class="white-text">This is your first panel</p>
+      </div>
+      <div class="carousel-item amber white-text" href="#two!">
+        <h2>Second Panel</h2>
+        <p class="white-text">This is your second panel</p>
+      </div>
+      <div class="carousel-item green white-text" href="#three!">
+        <h2>Third Panel</h2>
+        <p class="white-text">This is your third panel</p>
+      </div>
+      <div class="carousel-item blue white-text" href="#four!">
+        <h2>Fourth Panel</h2>
+        <p class="white-text">This is your fourth panel</p>
+      </div>
+    </div>
+
+    <header class="light-blue accent-1">
+      <div class="container">
+        <h2 class="blue-text">Bienvenidos a mi sitio web</h2>
+        <h3 class="blue-text text-darken-2">Bienvenidos a mi sitio web</h3>
+        <i class="medium material-icons blue-text">access_time</i>
+      </div>
+    </header>
+    <section class="light-blue">
+      <div class="container">
+        <h4>Titulo 4</h4>
+      </div>
+    </section>
+    <section class="red lighten-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s2">1</div>
+          <div class="col s4">2</div>
+          <div class="col s4">3</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <blockquote>Tipos de botones</blockquote>
+      <a class="btn"> button </a>
+      <a class="waves-effect waves-light btn">
+        <i class="material-icons left">cloud</i>
+        button
+      </a>
+      <a class="waves-effect waves-light btn">
+        <i class="material-icons right">cloud</i>
+        button
+      </a>
+    </div>
+
+    <div class="container">
+      <blockquote>Bienvenidos</blockquote>
+      <a class="btn-floating waves-effect waves-light red"
+        ><i class="material-icons">add</i>
+      </a>
+
+      <a class="btn btn-small"> button </a>
+      <a class="btn orange">
+        <i class="material-icons left">cloud</i>
+        button
+      </a>
+      <button class="btn orange">
+        <i class="material-icons left">cloud</i>
+        button
+      </button>
+      <a class="btn yellow">
+        <i class="material-icons right">cloud</i>
+        button
+      </a>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s6">
+            <div class="card darken-1">
+              <div class="card-content">
+                <span class="card-title">Card Title</span>
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="btn orange">
+                  <i class="material-icons left">cloud</i>
+                  button
+                </button>
+                <a class="btn yellow">
+                  <i class="material-icons right">cloud</i>
+                  button
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card darken-1">
+              <div class="card-image">
+                <img
+                  src="https://vignette.wikia.nocookie.net/reinoanimalia/images/5/5c/Desiertos.png/revision/latest?cb=20150820071052&path-prefix=es"
+                />
+                <span class="card-title">Card Title</span>
+              </div>
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-action">
+                <button class="btn blue">
+                  <i class="material-icons left">cloud</i>
+                  button
+                </button>
+                <a class="btn green">
+                  <i class="material-icons right">cloud</i>
+                  button
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card horizontal">
+              <div class="card-image">
+                <img
+                  src="https://vignette.wikia.nocookie.net/reinoanimalia/images/5/5c/Desiertos.png/revision/latest?cb=20150820071052&path-prefix=es"
+                />
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p>
+                    I am a very simple card. I am good at containing small bits
+                    of information.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col s6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img
+                  class="activator"
+                  src="https://vignette.wikia.nocookie.net/reinoanimalia/images/5/5c/Desiertos.png/revision/latest?cb=20150820071052&path-prefix=es"
+                />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4"
+                  >Card Title<i class="material-icons right">more_vert</i></span
+                >
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4"
+                  >Card Title<i class="material-icons right">close</i></span
+                >
+                <div class="card darken-1">
+                  <div class="card-content">
+                    <span class="card-title">Card Title</span>
+                    <p>
+                      I am a very simple card. I am good at containing small
+                      bits of information. I am convenient because I require
+                      little markup to use effectively.
+                    </p>
+                  </div>
+                  <div class="card-action">
+                    <button class="btn orange">
+                      <i class="material-icons left">cloud</i>
+                      button
+                    </button>
+                    <a class="btn yellow">
+                      <i class="material-icons right">cloud</i>
+                      button
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col s6">
+            <div class="card">
+              <div class="card-content">
+                <p>
+                  I am a very simple card. I am good at containing small bits of
+                  information. I am convenient because I require little markup
+                  to use effectively.
+                </p>
+              </div>
+              <div class="card-tabs">
+                <ul class="tabs tabs-fixed-width">
+                  <li class="tab"><a href="#test4">Test 1</a></li>
+                  <li class="tab">
+                    <a class="active" href="#test5">Test 2</a>
+                  </li>
+                  <li class="tab"><a href="#test6">Test 3</a></li>
+                </ul>
+              </div>
+              <div class="card-content grey lighten-4">
+                <div id="test4">Test 1</div>
+                <div id="test5">Test 2</div>
+                <div id="test6">Test 3</div>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col s6">
+            <ul id="tabs-swipe-demo" class="tabs">
+              <li class="tab col s3"><a href="#test-swipe-1">Test 1</a></li>
+              <li class="tab col s3">
+                <a class="active" href="#test-swipe-2">Test 2</a>
+              </li>
+              <li class="tab col s3"><a href="#test-swipe-3">Test 3</a></li>
+            </ul>
+            <div id="test-swipe-1" class="col s12 blue">Test 1</div>
+            <div id="test-swipe-2" class="col s12 red">Test 2</div>
+            <div id="test-swipe-3" class="col s12 green">Test 3</div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
